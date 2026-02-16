@@ -382,8 +382,6 @@ h3 {
   display: flex;
   gap: 16px;
   margin-top: 16px;
-  width: 24px;
-  height: 24px;
 }
 .social-link-foot:hover{
   background-color: #31d0aa;
@@ -391,6 +389,7 @@ h3 {
 .footer-container {
   display: flex;
   align-items: baseline; 
+  justify-content: space-between;
 }
 .social-footer{
   margin-left: 120px;
@@ -474,6 +473,7 @@ h3 {
   background-color: #404bbf;
 }
 .mail{
+  margin-top: 16px;
   border: 1px solid #fff;
   background-color: transparent;
   border-radius: 4px;
